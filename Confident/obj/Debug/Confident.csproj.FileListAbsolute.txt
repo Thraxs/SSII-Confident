@@ -1,0 +1,9 @@
+C:\Users\JAVI\Documents\GitHub\Confident\Confident\bin\Debug\Confident.exe.config
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\bin\Debug\Confident.exe.config
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\bin\Debug\Confident.exe
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\bin\Debug\Confident.pdb
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\obj\Debug\Confident.Properties.Resources.resources
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\obj\Debug\Confident.csproj.GenerateResource.Cache
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\obj\Debug\Confident.exe
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\obj\Debug\Confident.pdb
+C:\Users\JAVI\Documents\GitHub\SSII-Confident\Confident\obj\Debug\Confident.Form1.resources
