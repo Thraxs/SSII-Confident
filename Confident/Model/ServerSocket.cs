@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -45,6 +46,13 @@ namespace Confident
             Array.Copy(key, this.key, key.Length);
             this.algorithm = algorithm;
             this.nonceCache = new Dictionary<int, DateTime>();
+
+            //TEST
+            //http://blogs.msdn.com/b/shawnfa/archive/2007/01/22/elliptic-curve-diffie-hellman.aspx
+            //https://msdn.microsoft.com/en-us/library/system.security.cryptography.ecdiffiehellmancng%28v=vs.110%29.aspx
+            ECDiffieHellmanCng ECDH = new ECDiffieHellmanCng();
+            ECDH.HashAlgorithm = CngAlgorithm.Sha256;
+            ECDH.KeyDerivationFunction = ECDiffieHellmanKeyDerivationFunction.Hash;
         }
 
         public static ManualResetEvent resetEvent = new ManualResetEvent(false);
